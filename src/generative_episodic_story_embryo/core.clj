@@ -1,5 +1,6 @@
 (ns generative-episodic-story-embryo.core
-  (:gen-class))
+  (:gen-class)
+  (:require [generative-episodic-story-embryo.pure-random :as pure-random]))
 
 (def story-file "story.txt")
 
