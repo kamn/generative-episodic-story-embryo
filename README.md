@@ -1,6 +1,6 @@
 # generative-episodic-story-embryo
 
-FIXME: description
+An attempt to generate a story for NaNoGenMo 2017
 
 ## Installation
 
@@ -11,10 +11,6 @@ Download from http://example.com/FIXME.
 FIXME: explanation
 
     $ java -jar generative-episodic-story-embryo-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
 
 ## Examples
 
@@ -30,7 +26,7 @@ FIXME: listing of options this app accepts.
 
 ## License
 
-Copyright © 2017 FIXME
+Copyright © 2017 kamn
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
