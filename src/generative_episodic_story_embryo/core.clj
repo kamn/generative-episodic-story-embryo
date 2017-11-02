@@ -1,7 +1,22 @@
 (ns generative-episodic-story-embryo.core
   (:gen-class))
 
+(def story-file "story.txt")
+
+(defn print-story [str]
+  (spit story-file str)) 
+
+(defn gen-repeating-string-story [str]
+  (->> str
+    (repeat)
+    (take 50000)
+    (clojure.string/join "\n")))
+
 (defn -main
-  "I don't do a whole lot ... yet."
+  "Kicks everything off"
   [& args]
-  (println "Hello, World!"))
+  (println "Generating a \"Hello world\" novel")
+  (->> 
+    "Hello World!"
+    (gen-repeating-string-story)
+    (print-story)))
