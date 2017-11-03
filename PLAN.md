@@ -24,6 +24,40 @@ From the github issue I created.
 I need to find a good library for deterministic random number generation. I want to be able to rerun the storys I had previsouly ran.
 Maybe just create a project for that.
 
+## Planner
+So I wanted to have something similar to a PDDL planner.
+I started to copy the 
+
+The planner needs a few things
+- A inital state. What the world is currently like
+  - Objects in the world
+- A goal state. What it wants the world to be
+- Actions
+  - Precondition
+  - Effect
+  - Postcondition
+- The planner
+  - Get a list of new states based on the action given
+    - If already visited ignore
+    - else try and check against goal state.
+      - Continue list of new states
+I am thinking I could use datascript for a lot of the post and precondition checks... Super intrested in if that would work
+
+## Audience World
+The audience has a view of the world that is given though sentences.
+Might be a good idea to track this and make the generator try to maximize the new information or even the variety of sentences.
+
+### Data-based
+TODO
+
+### Sentence-based
+
+The easiest way to do this sentence based is to keep a history of all sentences in the story.
+When we want to add a new sentence we go though and get the levenshtein distance of one sentence to the previous.
+There would also be some time/step component.
+So if the sentence was not seen recently then it would have a greater chance to appear again.
+
+
 ## Story Embyro
 
 

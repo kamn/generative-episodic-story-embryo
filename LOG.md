@@ -31,3 +31,21 @@ Started to add additional functionality to the `pure-random`.
 Might add a `impure-random` until I figure out a good way to deal with the new seed that is returned always.
 
 ## 2017-11-02 8:00 to 8:15
+Release 0.1.1
+Thought a little-bit about the idea of the audience story.
+Some interesting ideas but I should focus on what I can do.
+
+## 2017-11-02 8:45 to 9:00
+Just thought about how to setup a planner.
+Wrote some notes
+
+## 2017-11-02 9:00 to 9:15
+Continued to play around with datascript and getting a blockworld example working
+
+## 2017-11-02 9:15 to 9:30
+Still working on the datascript but feeling like it will be a good solution. 
+I got the precondition for an action figured out.
+I should check the goal state function and figure out how to get that to work.
+Then there is the effect of an action...
+In any case feeling better about it!
+Might work on simpler things tomorrow

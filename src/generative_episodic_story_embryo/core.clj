@@ -2,7 +2,9 @@
   (:gen-class)
   (:require [generative-episodic-story-embryo.pure-random :as pure-random]
             [generative-episodic-story-embryo.data :as data]
-            [generative-episodic-story-embryo.story-embryo :as embryo]))
+            [generative-episodic-story-embryo.story-embryo :as embryo]
+            [generative-episodic-story-embryo.planner :as planner]
+            [datascript.core :as d]))
 
 (def story-file "story.txt")
 
