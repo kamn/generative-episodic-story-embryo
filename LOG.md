@@ -22,3 +22,5 @@ Very rough outline that will have to be changed.
 I want each episode to have data information that is translated into a string.
 
 ## 2017-11-02 7:29 to 7:44
+Did Release 0.1.0.
+Worked on some theory stuff about what "You" really means.

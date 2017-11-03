@@ -26,7 +26,25 @@ Maybe just create a project for that.
 
 ## Story Embyro
 
+
+
 ### You
+"The audience is floating freely, like a ghost, until you give them a place to land."
+- Needs to show the state of the world.
+- World need to seem mostly in equilibrium. 
+- Rarely restate the world.
+- Mostly show new facets of the world.
+
+"Who are we going to be? But sooner or later, we need to be someone, because if we are not inside a character, then we are not inside the story."
+- Needs to show the state of the character.
+- Rarely restate the character.
+- Mostly show new facets of the character.
+
+"If there are choices, the audience picks someone to whom they relate"
+Make the character "relatable"
+
+"The easiest thing to do is fade in on a character that always does what the audience would do."
+Sounds good!
 
 ### Need
 
