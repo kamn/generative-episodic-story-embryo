@@ -1,4 +1,4 @@
-(defproject generative-episodic-story-embryo "0.0.4"
+(defproject generative-episodic-story-embryo "0.1.0"
   :description "A story generator for NaNoGenMo 2017"
   :url "https://github.com/kamn/generative-episodic-story-embryo"
   :license {:name "Eclipse Public License"
