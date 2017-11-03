@@ -4,6 +4,6 @@
 (defn generate-seed [seed]
   (x/xoroshiro128+ seed)) 
 
-
 (defn get-value [seed]
   [(x/value seed) (x/next seed)])
+
