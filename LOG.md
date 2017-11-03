@@ -24,3 +24,10 @@ I want each episode to have data information that is translated into a string.
 ## 2017-11-02 7:29 to 7:44
 Did Release 0.1.0.
 Worked on some theory stuff about what "You" really means.
+
+## 2017-11-02 7:44 to 7:59
+Refactored the `story-embryo` a little.
+Started to add additional functionality to the `pure-random`.
+Might add a `impure-random` until I figure out a good way to deal with the new seed that is returned always.
+
+## 2017-11-02 8:00 to 8:15

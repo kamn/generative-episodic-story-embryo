@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. This change log follows the conventions of [keepachangelog.com](http://keepachangelog.com/).
 
+## 0.1.1 - 2017-11-02
+### Changed
+- Refactored the `story-embryo` for more reuse
+
 ## 0.1.0 - 2017-11-02
 ### Removed
 - The `Hello World!` repeating story
@@ -26,4 +30,4 @@ All notable changes to this project will be documented in this file. This change
 - Some additional meta information
 
 [Unreleased]: https://github.com/your-name/generative-episodic-story-embryo/compare/0.1.1...HEAD
-[0.1.1]: https://github.com/your-name/generative-episodic-story-embryo/compare/0.1.0...0.1.1
+[0.1.100]: https://github.com/your-name/generative-episodic-story-embryo/compare/0.1.0...0.1.1

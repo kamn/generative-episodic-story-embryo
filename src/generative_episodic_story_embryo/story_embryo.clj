@@ -12,37 +12,18 @@
 (defn append-to-ep [s world-state]
   (update world-state :current-ep conj s))
 
-(defn gen-you [world-state]
-  (let [you-str (get-text data/embryo-you world-state)]
-    (append-to-ep you-str world-state)))
+(defn gen-generic [data-list world-state]
+  (let [s (get-text data-list world-state)]
+    (append-to-ep s world-state)))
 
-(defn gen-need [world-state]
-  (let [you-str (get-text data/embryo-need world-state)]
-    (append-to-ep you-str world-state)))
-
-(defn gen-go [world-state]
-  (let [you-str (get-text data/embryo-go world-state)]
-    (append-to-ep you-str world-state)))
-
-(defn gen-search [world-state]
-  (let [you-str (get-text data/embryo-search world-state)]
-    (append-to-ep you-str world-state)))
-
-(defn gen-find [world-state]
-  (let [you-str (get-text data/embryo-find world-state)]
-    (append-to-ep you-str world-state)))
-
-(defn gen-take [world-state]
-  (let [you-str (get-text data/embryo-take world-state)]
-    (append-to-ep you-str world-state)))
-
-(defn gen-return [world-state]
-  (let [you-str (get-text data/embryo-return world-state)]
-    (append-to-ep you-str world-state)))
-
-(defn gen-change [world-state]
-  (let [you-str (get-text data/embryo-change world-state)]
-    (append-to-ep you-str world-state)))
+(def gen-you (partial gen-generic data/embryo-you)) 
+(def gen-need (partial gen-generic data/embryo-need)) 
+(def gen-go (partial gen-generic data/embryo-go)) 
+(def gen-search (partial gen-generic data/embryo-search))
+(def gen-find (partial gen-generic data/embryo-find))
+(def gen-take (partial gen-generic data/embryo-take))
+(def gen-return (partial gen-generic data/embryo-return))
+(def gen-change (partial gen-generic data/embryo-change))
 
 (defn gen-episode [world-state]
   (->> 
